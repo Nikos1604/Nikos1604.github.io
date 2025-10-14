@@ -33,7 +33,7 @@ text-align: center;
 }
 
 body {
-background-color: lightgray;
+background-color: rgb(255, 0, 230);
 }
 .container {
 background-color: white;
@@ -46,6 +46,51 @@ padding: 5px 30px;
 }
 
 
+.big {
+    font-size: 3rem;
+    font-weight: bold;
+}
 
+@media(max-width:500px) {
+    body {
+        background-color: red;
+        
+    }
+
+    #smartphone {
+        display: block;
+    }
+}
+
+@media(min-width: 501px) and (max-width:768px) {
+    body {
+        background-color: rgb(0, 255, 0);
+    }
+
+    #tablet {
+        display: block;
+    }
+}
+
+@media(min-width: 769px) and (max-width:1200px) {
+    body {
+        background-color: cyan;
+    }
+
+    #normal {
+        display: block;
+    }
+}
+
+@media(max-height: 500px) {
+    body {
+        background-color: rgb(255, 213, 0);
+    }
+    
+
+    #landscape {
+        display: block;
+    }
+}
 
 
