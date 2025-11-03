@@ -1,0 +1,102 @@
+#navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 10px;
+    margin: 0 4px;
+}
+
+#navbar ul li a:hover {
+    background-color: #cb5252;
+    border-radius: 5px;
+}
+h1,h3 {
+color: #ff0000;
+text-align: center;
+}
+
+body {
+background-color: rgb(58, 0, 0);
+}
+.container {
+background-color: white;
+max-width: 600px;
+border-radius: 15px;
+box-shadow: rgba(0, 0, 0, 0.35)
+0px 5px 15px;
+margin: 100px auto;
+padding: 5px 30px;
+}
+
+
+.big {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+@media(max-width:500px) {
+    body {
+        background-color: red;
+        
+    }
+
+    #smartphone {
+        display: block;
+    }
+}
+
+@media(min-width: 501px) and (max-width:768px) {
+    body {
+        background-color: rgb(61, 61, 61);
+    }
+
+    #tablet {
+        display: block;
+    }
+}
+
+@media(min-width: 769px) and (max-width:1200px) {
+    body {
+        background-color: cyan;
+    }
+
+    #normal {
+        display: block;
+    }
+}
+
+@media(max-height: 500px) { 
+    body {
+        background-color: rgb(255, 213, 0);
+    }
+  }  
+
+  @media (orientation: landscape) {
+    #landscape{
+        display: block;
+    }    
+}
+#navbar a.desktop {display: inline; color: white;text-decoration: none; }
+#navbar a.mobile {display: none; font-size: 24px; }
+
+  @media (max-width: 500px) {
+#navbar a.desktop {display: none; }
+#navbar a.mobile  {display:inline-block;}
+   }
