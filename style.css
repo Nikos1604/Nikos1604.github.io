@@ -101,7 +101,7 @@ a {
 
 img {
   display: block;
-  width: 100%;
+  width: 50%;
 }
 
 /* nav */
@@ -328,3 +328,4 @@ footer i {
     text-align: center;
   }
 }
+ 
